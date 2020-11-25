@@ -15,3 +15,4 @@ ENV PATH="/opt/program:${PATH}"
 
 COPY inference/LinearRegression /opt/program
 WORKDIR /opt/program
+RUN echo $(ls -1 /opt/program)
